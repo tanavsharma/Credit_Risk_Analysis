@@ -10,21 +10,21 @@ The balanced accuracy score is: `0.6216172933512213` which is **`62%`**
 The high_risk precision is about 1% only with a 59% senstivity, which we can see makes an f1 of only 2%.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 66%.
 
-<img src="SMOTE.png" alt="main-screen"><br><br>
+<img src="/pictures/SMOTE.png" alt="main-screen"><br><br>
 
 ### 2. SMOTE 
 The balanced accuracy score is: `0.6398437216722869` which is **`63%`**
 The high_risk precision is about 1% only with a 59% senstivity, which we can see makes an f1 of only 2%.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 69%.
 
-<img src="RandomOverSampling.png" alt="main-screen"><br><br>
+<img src="/pictures/RandomOverSampling.png" alt="main-screen"><br><br>
 
 ### 3. ClusterCentroids
 The balanced accuracy score is: `0.5107398543980726` which is **`51%`**
 The high_risk precision is about 1% only with a 59% senstivity, which we can see makes an f1 of 1% also.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 44%.
 
-<img src="ClusterCentroids.png" alt="main-screen"><br><br>
+<img src="/pictures/ClusterCentroids.png" alt="main-screen"><br><br>
 
 
 ### 4. SMOTEENN
@@ -32,7 +32,7 @@ The balanced accuracy score is: `0.6107535524211256` which is **`61%`**
 The high_risk precision is about 1% only with a 68% senstivity, which we can see makes an f1 of 1% also.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 54%.
 
-<img src="SMOTEENN.png" alt="main-screen"><br><br>
+<img src="/pictures/SMOTEENN.png" alt="main-screen"><br><br>
 
 
 ### 5. BalancedRandomForestClassifier
@@ -40,7 +40,7 @@ The balanced accuracy score is: `0.7877672625306695` which is **`78%`**
 The high_risk precision is about 4% only with a 67% senstivity, which we can see makes an f1 of 7% also.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 91%.
 
-<img src="BalancedRandomForestClassifier.png" alt="main-screen"><br><br>
+<img src="/pictures/BalancedRandomForestClassifier.png" alt="main-screen"><br><br>
 
 
 ### 6. EasyEnsembleClassifier
@@ -48,7 +48,7 @@ The balanced accuracy score is: `0.925427358175101` which is **`92%`**
 The high_risk precision is about 7% only with a 91% senstivity, which we can see makes an f1 of 14% also.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 94%.
 
-<img src="EasyEnsembleClassifier.png" alt="main-screen"><br><br>
+<img src="/pictures/EasyEnsembleClassifier.png" alt="main-screen"><br><br>
 
 ## Summary
 - As we can see that most of models produce a weak result when running th credit risk analysis, however we do notice a huge improvement when we use the EasyEnsembleClassifier.
